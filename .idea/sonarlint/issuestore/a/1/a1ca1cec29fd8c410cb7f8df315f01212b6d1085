@@ -1,0 +1,28 @@
+
+P
+java:S1161":Add the "@Override" annotation above this method signature(•”Ëß
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(õµÂ”
+P
+java:S1161#":Add the "@Override" annotation above this method signature(Ÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(š±’ýÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(´íÅà
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ
+P
+java:S1161\":Add the "@Override" annotation above this method signature(“–ýþ
+K
+java:S2209d"5Change this instance-reference to a static reference.(¿ƒ÷¾
+C
+java:S1185j"(Remove this method to simply inherit it.(ßûÊŒþÿÿÿÿ
+U
+java:S1161j":Add the "@Override" annotation above this method signature(ßûÊŒþÿÿÿÿ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(òìºàýÿÿÿÿ
+E
+java:S1068r"*Remove this unused "dummy1" private field.(Ýºúÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(í´Ó‰
+g
+java:S1104o"SMake console a static final constant or non-public and provide accessors if needed.(‘“
+A
+java:S1444o"-Make this "public static console" field final(‘“

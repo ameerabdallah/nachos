@@ -1,0 +1,10 @@
+
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ќлѓє
+P
+java:S1161":Add the "@Override" annotation above this method signature(µгљП
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(М∞нџы€€€€
+Q
+java:S2696,"6Make the enclosing method "static" or remove this set.(М∞нџы€€€€
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(П©ƒью€€€€

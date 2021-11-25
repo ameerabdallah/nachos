@@ -1,0 +1,45 @@
+
+w	java:S115Í"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»øÚ…8Ê°„ÂÑ/
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ç¶åëûÿÿÿÿ8Ë°„ÂÑ/
+ƒ
+java:S1149ê"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(„…®¥8Í°„ÂÑ/
+T
+java:S2696µ"6Make the enclosing method "static" or remove this set.(Ãš·©8Û°„ÂÑ/
+T
+java:S2696æ"6Make the enclosing method "static" or remove this set.(ƒô±ˆ8İ°„ÂÑ/
+H
+java:S1181û"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ8İ°„ÂÑ/
+s
+java:S2142ğ"UEither re-interrupt this method or rethrow the "ThreadDeath" that can be caught here.(Ùİœ§8ß°„ÂÑ/
+[	java:S106ó"9Replace this use of System.out or System.err by a logger.(ƒä¼Ùşÿÿÿÿ8á°„ÂÑ/
+U	java:S106ü"9Replace this use of System.out or System.err by a logger.(°•Ş8á°„ÂÑ/
+[
+java:S6213"8Rename this method to not match a restricted identifier.(òÕì½øÿÿÿÿ8â°„ÂÑ/
+T
+java:S2696—"6Make the enclosing method "static" or remove this set.(ƒô±ˆ8ã°„ÂÑ/
+
+java:S2142¥"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ğ‹Ù¼ùÿÿÿÿ8ä°„ÂÑ/
+K	java:S108¥")Either remove or fill this block of code.(ğ‹Ù¼ùÿÿÿÿ8ä°„ÂÑ/
+S
+java:S2446±"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ8å°„ÂÑ/
+]
+java:S1128	";Remove this unused import 'java.security.PrivilegedAction'.(£Şóšùÿÿÿÿ8í°„ÂÑ/
+B
+java:S3398Â"%Move this method into "TCBPrivilege".(¸œ“S8î°„ÂÑ/
+C
+java:S3398´"%Move this method into "TCBPrivilege".(øÄšİ8î°„ÂÑ/
+w
+java:S2293ê"YReplace the type specification in this constructor call with the diamond operator ("<>").(„…®¥8ğ°„ÂÑ/
+J
+java:S1604\"(Make this anonymous inner class a lambda(öÌàÿıÿÿÿÿ8ğ°„ÂÑ/
+E
+java:S1604`"(Make this anonymous inner class a lambda(Çûä8ñ°„ÂÑ/
+e
+java:S3973ø"GUse indentation to denote the code conditionally executed by this "if".(ùš•º8ó°„ÂÑ/
+e
+java:S3973€"GUse indentation to denote the code conditionally executed by this "if".(ùš•º8ô°„ÂÑ/
+l
+java:S3973‚"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8ô°„ÂÑ/
+f
+java:S2259¸"HA "NullPointerException" could be thrown; "currentTCB" is nullable here.(œ¬¥–8ˆ±„ÂÑ/

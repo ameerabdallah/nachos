@@ -1,0 +1,24 @@
+
+E
+java:S3740B"/Provide the parametrized type for this generic.(é¿ÄË
+E
+java:S3740J"/Provide the parametrized type for this generic.(º‹¦‹
+D
+java:S3740c"/Provide the parametrized type for this generic.(—•*
+N
+java:S59932"9Change the visibility of this constructor to "protected".(åûàm
+@
+java:S1181g"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(ÑâŠÚ
+t
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨Ô„©ıÿÿÿÿ
+g
+java:S1104q"QMake stats a static final constant or non-public and provide accessors if needed.(ìè„
+n
+java:S1104t"SMake machine a static final constant or non-public and provide accessors if needed.(±ÏŸûÿÿÿÿ
+p
+java:S1104v"UMake interrupt a static final constant or non-public and provide accessors if needed.(æÜ“ûÿÿÿÿ
+p
+java:S1104x"UMake processor a static final constant or non-public and provide accessors if needed.(œìİ¥üÿÿÿÿ
+j
+java:S1104z"OMake tcb a static final constant or non-public and provide accessors if needed.(ÄÊøıÿÿÿÿ

@@ -1,0 +1,30 @@
+
+P
+java:S1161":Add the "@Override" annotation above this method signature(•”Ëß
+P
+java:S1161#":Add the "@Override" annotation above this method signature(Ÿÿ
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(’ŞÁ
+M
+java:S1854N"7Remove this useless assignment to local variable "ack".(Æ×âµ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ğ×Üªûÿÿÿÿ
+>
+java:S1481N"(Remove this unused "ack" local variable.(Æ×âµ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(İ‹Åşÿÿÿÿ
+>
+java:S1185l"(Remove this method to simply inherit it.(“–ış
+P
+java:S1161l":Add the "@Override" annotation above this method signature(“–ış
+C
+java:S1185s"(Remove this method to simply inherit it.(ßûÊŒşÿÿÿÿ
+U
+java:S1161s":Add the "@Override" annotation above this method signature(ßûÊŒşÿÿÿÿ
+G
+java:S1128",Remove this unused import 'nachos.userprog'.(òìºàıÿÿÿÿ
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(šˆï
+@
+java:S1068z"*Remove this unused "dummy1" private field.(¢Ñöã
+C
+java:S1604&"(Make this anonymous inner class a lambda(Ì¨ñÆúÿÿÿÿ
+=
+java:S2189V""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ

@@ -1,0 +1,8 @@
+
+N
+java:S1610
+"9Convert the abstract class "Scheduler" into an interface.(¦Š:
+p
+java:S4144b"[Update this method so that its implementation is not identical to "getPriority" on line 62.(—Ô«
+O
+java:S5993"9Change the visibility of this constructor to "protected".(šş

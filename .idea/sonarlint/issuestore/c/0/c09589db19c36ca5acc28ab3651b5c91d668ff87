@@ -1,0 +1,8 @@
+
+u	java:S115“"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›¿éşÿÿÿÿ
+p	java:S115”"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°Óœ¾
+p	java:S115–"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŸÚ¨Æ
+h
+java:S3776("RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ış‰Ä
+F
+java:S1197‘"*Move the array designators [] to the type.(ÊúÇ±ıÿÿÿÿ

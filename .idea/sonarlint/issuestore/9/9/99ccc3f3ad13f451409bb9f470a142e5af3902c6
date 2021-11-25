@@ -1,0 +1,11 @@
+
+T
+java:S5993"9Change the visibility of this constructor to "protected".(Á•æÏüÿÿÿÿ
+>
+java:S3010"#Remove this assignment of "kernel".(¶ ûÿÿÿÿ
+m
+java:S1104
+"RMake kernel a static final constant or non-public and provide accessors if needed.(°Ê“öıÿÿÿÿ
+G
+java:S1444
+",Make this "public static kernel" field final(°Ê“öıÿÿÿÿ

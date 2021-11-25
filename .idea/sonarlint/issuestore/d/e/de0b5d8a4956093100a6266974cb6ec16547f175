@@ -1,0 +1,28 @@
+
+t	java:S1152"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ªäò´úÿÿÿÿ
+>
+java:S1185"(Remove this method to simply inherit it.(•”Ëß
+P
+java:S1161":Add the "@Override" annotation above this method signature(•”Ëß
+>
+java:S1185"(Remove this method to simply inherit it.(Ÿÿ
+P
+java:S1161":Add the "@Override" annotation above this method signature(Ÿÿ
+>
+java:S1185$"(Remove this method to simply inherit it.(“–ýþ
+P
+java:S1161$":Add the "@Override" annotation above this method signature(“–ýþ
+C
+java:S1185+"(Remove this method to simply inherit it.(ßûÊŒþÿÿÿÿ
+U
+java:S1161+":Add the "@Override" annotation above this method signature(ßûÊŒþÿÿÿÿ
+@
+java:S1128"+Remove this unused import 'nachos.machine'.(Šú´o
+A
+java:S1128"+Remove this unused import 'nachos.threads'.(€Óãû
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¸É£ö
+@
+java:S10680"*Remove this unused "dummy1" private field.(Ãê£Í
+D
+java:S10682")Remove this unused "dbgVM" private field.(ªäò´úÿÿÿÿ

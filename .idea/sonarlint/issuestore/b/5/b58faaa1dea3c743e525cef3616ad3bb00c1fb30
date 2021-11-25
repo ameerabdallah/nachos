@@ -1,0 +1,35 @@
+
+z
+java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(†ÅÉ5
+U
+java:S1161!":Add the "@Override" annotation above this method signature(ÿŸ¾Ğüÿÿÿÿ
+;
+java:S1659K" Declare "nb" on a separate line.(›Ç†Ÿıÿÿÿÿ
+Q
+java:S2696)"6Make the enclosing method "static" or remove this set.(¿‚é´øÿÿÿÿ
+Q
+java:S2696*"6Make the enclosing method "static" or remove this set.(¢™Œ½üÿÿÿÿ
+Q
+java:S26969"6Make the enclosing method "static" or remove this set.(ãòáìıÿÿÿÿ
+Q
+java:S2696:"6Make the enclosing method "static" or remove this set.(¢™Œ½üÿÿÿÿ
+L
+java:S2696I"6Make the enclosing method "static" or remove this set.(µöÒ²
+Q
+java:S2696J"6Make the enclosing method "static" or remove this set.(¢™Œ½üÿÿÿÿ
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(¯“ñşÿÿÿÿ8Ÿ›ª‹Ê/
+8
+java:S2129…"!Remove this "Integer" constructor(ı³€
+F
+java:S1874…"/Remove this use of "Integer"; it is deprecated.(ı³€
+8
+java:S2129†"!Remove this "Integer" constructor(Ìåè
+F
+java:S1874†"/Remove this use of "Integer"; it is deprecated.(Ìåè
+[	java:S106‡"9Replace this use of System.out or System.err by a logger.(Èšß°ıÿÿÿÿ8ŸÄª‹Ê/
+R
+java:S2696ˆ"6Make the enclosing method "static" or remove this set.(¨°»ıÿÿÿÿ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(†ÅÉ5
+b	java:S101o"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äÈÚÆ
+c	java:S101€"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®´™é

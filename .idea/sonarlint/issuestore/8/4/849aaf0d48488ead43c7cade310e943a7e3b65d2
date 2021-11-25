@@ -1,0 +1,52 @@
+
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ƒŒæëüÿÿÿÿ
+o
+java:S3008"TRename this field "error_cnt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖïÀøÿÿÿÿ
+i
+java:S3008"SRename this field "high_run" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó¢€ã
+U
+java:S1161"":Add the "@Override" annotation above this method signature(ÿŸ¾Ðüÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(½åÎ¬
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(úÐ±žýÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(”æ¬÷ýÿÿÿÿ
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(úÐ±žýÿÿÿÿ
+L
+java:S2696L"6Make the enclosing method "static" or remove this set.(·Û›‡
+S	java:S106\"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(íý°òûÿÿÿÿ
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(úÐ±žýÿÿÿÿ
+K
+java:S2696_"6Make the enclosing method "static" or remove this set.(ÈáÊ"
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+M	java:S106i"9Replace this use of System.out or System.err by a logger.(è¯”%
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+K
+java:S2696k"6Make the enclosing method "static" or remove this set.(ÈáÊ"
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(ø™öëùÿÿÿÿ
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(¢üŸò
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(¦ðôéøÿÿÿÿ
+
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹â¶øÿÿÿÿ
+R
+java:S2696­"6Make the enclosing method "static" or remove this set.(æÒž×ùÿÿÿÿ
+
+java:S1186³"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íá×òûÿÿÿÿ
+L
+java:S2696º"6Make the enclosing method "static" or remove this set.(ÈáÊ"
+>
+java:S1068Œ"'Remove this unused "num" private field.(¥Û¾º
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Õ¯‰Ÿ
+‡
+java:S1192>"lDefine a constant instead of duplicating this literal "
+------------------------------------------" 9 times.(¦ðôéøÿÿÿÿ
+ˆ
+java:S1192@"mDefine a constant instead of duplicating this literal "
+------------------------------------------
+" 3 times.(úÐ±žýÿÿÿÿ
+c	java:S101‡"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(äÈÚÆ

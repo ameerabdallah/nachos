@@ -1,0 +1,21 @@
+
+D
+java:S1659‘"&Declare "canWrite" on a separate line.(ýªÚ“8“åµÃÑ/
+\
+java:S1161s":Add the "@Override" annotation above this method signature(—µ±þýÿÿÿÿ8“åµÃÑ/
+W
+java:S1161w":Add the "@Override" annotation above this method signature(Ý‚™Å8”åµÃÑ/
+]
+java:S1161‡":Add the "@Override" annotation above this method signature(Š›Àˆýÿÿÿÿ8”åµÃÑ/
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(òìºàýÿÿÿÿ8•åµÃÑ/
+J
+java:S1604"(Make this anonymous inner class a lambda(ˆ—’˜ýÿÿÿÿ8•åµÃÑ/
+E
+java:S1604"(Make this anonymous inner class a lambda(ðˆžœ8•åµÃÑ/
+c
+java:S3973x"GUse indentation to denote the code conditionally executed by this "if".(ä‹×Q8–åµÃÑ/
+e
+java:S3973ˆ"GUse indentation to denote the code conditionally executed by this "if".(ê­Ï¥8—åµÃÑ/
+k
+java:S3973‹"HUse indentation to denote the code conditionally executed by this "for".(¥¿…Êüÿÿÿÿ8—åµÃÑ/

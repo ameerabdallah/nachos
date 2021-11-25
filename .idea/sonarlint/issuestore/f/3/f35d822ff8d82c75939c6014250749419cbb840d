@@ -1,0 +1,56 @@
+
+F
+java:S3740™"/Provide the parametrized type for this generic.(ğÀû
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(øºÑûúÿÿÿÿ
+B
+java:S1905‹"&Remove this unnecessary cast to "int".(›áÓšüÿÿÿÿ
+]
+java:S1126"AReplace this if-then-else statement by a single return statement.(ö‰ùîüÿÿÿÿ
+B
+java:S1905"&Remove this unnecessary cast to "int".(ö‰ùîüÿÿÿÿ
+B
+java:S1905 "&Remove this unnecessary cast to "int".(ú®úİûÿÿÿÿ
+A
+java:S1197¥"*Move the array designators [] to the type.(ŠÁ§Ì
+=
+java:S1168Å"&Return an empty array instead of null.(¥¹ï
+=
+java:S1168Ğ"&Return an empty array instead of null.(¥¹ï
+=	java:S131•""Add a default case to this switch.(È»Ò÷úÿÿÿÿ
+D
+java:S1905ª"(Remove this unnecessary cast to "short".(‘Ä‰©şÿÿÿÿ
+D
+java:S1905«"(Remove this unnecessary cast to "short".(Úéµışÿÿÿÿ
+B
+java:S1905·"&Remove this unnecessary cast to "int".(¯ùÇúÿÿÿÿ
+B
+java:S1905Â"&Remove this unnecessary cast to "int".(ÏÅ¹·şÿÿÿÿ
+B
+java:S1905Â"&Remove this unnecessary cast to "int".(ÏÅ¹·şÿÿÿÿ
+=
+java:S1905Ã"&Remove this unnecessary cast to "int".(©ŞÇó
+=
+java:S1905Ä"&Remove this unnecessary cast to "int".(ê™‘
+=
+java:S1905Å"&Remove this unnecessary cast to "int".(ê‰şÜ
+A
+java:S1181Ø"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+A
+java:S1181ç"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+A
+java:S1181ı"%Catch Exception instead of Throwable.(ÓÌËÉûÿÿÿÿ
+V
+java:S1128	";Remove this unused import 'java.security.PrivilegedAction'.(£Şóšùÿÿÿÿ
+5
+java:S2183ª"Remove this useless shift(‘Ä‰©şÿÿÿÿ
+5
+java:S2183Â"Remove this useless shift(ÏÅ¹·şÿÿÿÿ
+l	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×è€˜ûÿÿÿÿ
+3
+java:S1643»"Use a StringBuilder instead.(¶‘¨¸
+c
+java:S3973Ÿ"GUse indentation to denote the code conditionally executed by this "if".(øãĞçøÿÿÿÿ
+c
+java:S3973ì"GUse indentation to denote the code conditionally executed by this "if".(Üóªéùÿÿÿÿ
+d
+java:S2259û"HA "NullPointerException" could be thrown; "loadClass()" can return null.(Ôôîùÿÿÿÿ

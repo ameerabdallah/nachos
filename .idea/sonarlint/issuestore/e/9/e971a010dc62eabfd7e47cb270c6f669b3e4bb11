@@ -1,0 +1,34 @@
+
+u	java:S115§"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•ãıóıÿÿÿÿ
+i
+java:S4042<"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¦Î°ıÿÿÿÿ
+C	java:S108i")Either remove or fill this block of code.(©œ¡ÿÿÿÿÿ
+U
+java:S1161m":Add the "@Override" annotation above this method signature(Ùº†Šùÿÿÿÿ
+P
+java:S1161|":Add the "@Override" annotation above this method signature(Äô©Ö
+V
+java:S1161Œ":Add the "@Override" annotation above this method signature(ã•Åùüÿÿÿÿ
+V
+java:S1161•":Add the "@Override" annotation above this method signature(—µ±şıÿÿÿÿ
+D	java:S108")Either remove or fill this block of code.(©œ¡ÿÿÿÿÿ
+<
+java:S1905²"&Remove this unnecessary cast to "int".(áåy
+B
+java:S1144º"+Remove this unused private "reject" method.(¤ñ‘Â
+>
+java:S1604T"(Make this anonymous inner class a lambda(Çûä
+q
+java:S1104?"VMake successful a static final constant or non-public and provide accessors if needed.(¡ª¬ıÿÿÿÿ
+b
+java:S3973Q"GUse indentation to denote the code conditionally executed by this "if".(ç•Ú”üÿÿÿÿ
+]
+java:S3973X"GUse indentation to denote the code conditionally executed by this "if".(ÌÊßî
+b
+java:S3973n"GUse indentation to denote the code conditionally executed by this "if".(úÓÿÉùÿÿÿÿ
+b
+java:S3973}"GUse indentation to denote the code conditionally executed by this "if".(úÓÿÉùÿÿÿÿ
+c
+java:S3973°"GUse indentation to denote the code conditionally executed by this "if".(¿àóÂùÿÿÿÿ
+]
+java:S3973²"GUse indentation to denote the code conditionally executed by this "if".(áåy

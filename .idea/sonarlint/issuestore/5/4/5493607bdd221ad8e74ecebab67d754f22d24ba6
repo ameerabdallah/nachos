@@ -1,0 +1,42 @@
+
+F
+java:S3740Ã"/Provide the parametrized type for this generic.(ÈË¤µ
+K
+java:S3740Ì"/Provide the parametrized type for this generic.(©ÖÌÿÿÿÿÿ
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÄÅû’üÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ôÜƒ
+t
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ´ôşÿÿÿÿ
+B
+java:S1125c"'Remove the unnecessary boolean literal.(±ôÃ­ıÿÿÿÿ
+B
+java:S1125c"'Remove the unnecessary boolean literal.(±ôÃ­ıÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(ºƒü
+J
+java:S1905§"3Remove this unnecessary cast to "PendingInterrupt".(¾¸´
+O
+java:S1905­"3Remove this unnecessary cast to "PendingInterrupt".(‹ú˜Ûûÿÿÿÿ
+I
+java:S1905®"3Remove this unnecessary cast to "PendingInterrupt".(±ÔÊ
+O	java:S106¿"9Replace this use of System.out or System.err by a logger.(Óäáè
+T	java:S106Á"9Replace this use of System.out or System.err by a logger.(Ëúİ¡ÿÿÿÿÿ
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(„ÓûŒşÿÿÿÿ
+O	java:S106É"9Replace this use of System.out or System.err by a logger.(×ÎÅ
+p
+java:S1210Ô"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(‡ÕÔÏ
+K
+java:S1128	"0Remove this unused import 'java.util.SortedSet'.(ÆÙÉÛşÿÿÿÿ
+F
+java:S3398{"+Move this method into "InterruptPrivilege".(Ï—Ôúÿÿÿÿ
+c
+java:S3973³"GUse indentation to denote the code conditionally executed by this "if".(ğ’òïùÿÿÿÿ
+c
+java:S3973Ø"GUse indentation to denote the code conditionally executed by this "if".(¦ €±úÿÿÿÿ
+^
+java:S3973Ú"GUse indentation to denote the code conditionally executed by this "if".(•µîø
+c
+java:S3973Ü"GUse indentation to denote the code conditionally executed by this "if".(ŒîÒÍûÿÿÿÿ
+^
+java:S3973Ş"GUse indentation to denote the code conditionally executed by this "if".(ú¹¨á
+e
+java:S3973à"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ

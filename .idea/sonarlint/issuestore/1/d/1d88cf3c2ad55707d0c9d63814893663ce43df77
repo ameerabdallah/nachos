@@ -1,0 +1,56 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ş‹ƒüøÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦‹Äòÿÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğÌå·øÿÿÿÿ
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ØîŒ{
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€àıÒûÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¢ãØüøÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†Ñ»şÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ä–Õ¦
+o	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ò÷™¥
+o	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‚ñ©
+t	java:S115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶­ºÒüÿÿÿÿ
+n	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Î§è
+u	java:S116#"`Rename this field "MAX_STRING_ARG_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦îÕÙ
+7
+java:S1170#"!Make this final field static too.(¦îÕÙ
+<
+java:S1170)"!Make this final field static too.(ø‡ß–øÿÿÿÿ
+—
+java:S1186f"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Áíë‡
+
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¡Ùùÿÿÿÿ
+c
+java:S1659"HDeclare "syscallExit" and all following declarations on a separate line.(¦‹Äòÿÿÿÿÿ
+=
+java:S16596"'Declare "initialSP" on a separate line.(§‹òæ
+7
+java:S16597""Declare "argv" on a separate line.(ò©³%
+T
+java:S1117"8Rename "argv" which hides the field declared at line 55.(¦³å˜ûÿÿÿÿ
+@
+java:S1197Í"*Move the array designators [] to the type.(ƒµ·X
+@
+java:S1197Û"*Move the array designators [] to the type.(ƒµ·X
+A
+java:S1197ú"*Move the array designators [] to the type.(×½àƒ
+R
+java:S1128"0Remove this unused import 'java.nio.ByteBuffer'.(¿¢×±úÿÿÿÿ8»‚ÎÓ/
+G
+java:S10689"*Remove this unused "status" private field.(·â¼8íàÎÓ/
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÚö˜
+g	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÔÄ˜
+g	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îøî
+l	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ê¹¿üÿÿÿÿ
+l	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûˆÖµüÿÿÿÿ
+g	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÑŞ‡
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šé¤ğúÿÿÿÿ
+g	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÔÄ˜
+b
+java:S1301ä"KReplace this "switch" statement by "if" statements to increase readability.(³†à
+/
+java:S1700ú"Rename field "openFiles"(×½àƒ
+^
+java:S2259Î"BA "NullPointerException" could be thrown; "get()" can return null.(¿Ã÷¥úÿÿÿÿ
+^
+java:S2259à"BA "NullPointerException" could be thrown; "get()" can return null.(ô¦÷Æùÿÿÿÿ

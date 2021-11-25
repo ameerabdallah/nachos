@@ -1,0 +1,39 @@
+
+
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8çñ€¾Ñ/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(£í˜8êñ€¾Ñ/
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(Ğí…·ùÿÿÿÿ8ëñ€¾Ñ/
+S
+java:S2696"6Make the enclosing method "static" or remove this set.( óéÒ8ëñ€¾Ñ/
+S
+java:S2696 "6Make the enclosing method "static" or remove this set.(ÙÈñõ8ëñ€¾Ñ/
+X
+java:S2696%"6Make the enclosing method "static" or remove this set.(¤ø¬¶ûÿÿÿÿ8îñ€¾Ñ/
+L
+java:S1068O"*Remove this unused "dummy1" private field.(Ö‘âıÿÿÿÿ8õñ€¾Ñ/
+L
+java:S1068P"*Remove this unused "dummy2" private field.(†Ê£¯úÿÿÿÿ8õñ€¾Ñ/
+L
+java:S1068Q"*Remove this unused "dummy3" private field.(Ìö˜ ÿÿÿÿÿ8õñ€¾Ñ/
+G
+java:S1068R"*Remove this unused "dummy4" private field.(¼Í×õ8öñ€¾Ñ/
+L
+java:S1068S"*Remove this unused "dummy5" private field.(Ä×»öøÿÿÿÿ8öñ€¾Ñ/
+G
+java:S1068T"*Remove this unused "dummy6" private field.(²”óù8öñ€¾Ñ/
+L
+java:S1068U"*Remove this unused "dummy7" private field.(§¡¯Ÿûÿÿÿÿ8öñ€¾Ñ/
+w
+java:S1104H"UMake scheduler a static final constant or non-public and provide accessors if needed.(¿á×ñüÿÿÿÿ8÷ñ€¾Ñ/
+n
+java:S1104J"QMake alarm a static final constant or non-public and provide accessors if needed.(ÇÈØÚ8÷ñ€¾Ñ/
+x
+java:S1104L"VMake fileSystem a static final constant or non-public and provide accessors if needed.(ïÑºÁÿÿÿÿÿ8÷ñ€¾Ñ/
+Q
+java:S1444H"/Make this "public static scheduler" field final(¿á×ñüÿÿÿÿ8÷ñ€¾Ñ/
+H
+java:S1444J"+Make this "public static alarm" field final(ÇÈØÚ8÷ñ€¾Ñ/
+R
+java:S1444L"0Make this "public static fileSystem" field final(ïÑºÁÿÿÿÿÿ8÷ñ€¾Ñ/
