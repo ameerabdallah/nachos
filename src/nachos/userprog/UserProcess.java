@@ -31,7 +31,7 @@ public class UserProcess {
             syscallClose = 8,
             syscallUnlink = 9;
 
-    private final int MAX_STRING_ARG_LENGTH = 256 / (1 /* size of char in bytes */);
+    private final int MAX_STRING_ARG_LENGTH = 256;
     private static final int pageSize = Processor.pageSize;
     private static final char dbgProcess = 'a';
     /**
@@ -485,9 +485,6 @@ public class UserProcess {
     }
 
     private int handleClose(int fd) {
-        if(!validArguments(new int[]{fd}))
-            return killAndFree(-1);
-
         openFiles.remove(fd);
 		return 0;
 
@@ -499,7 +496,9 @@ public class UserProcess {
         }
 
         String s_name = readVirtualMemoryString(p_name,MAX_STRING_ARG_LENGTH-1);
-        fileSystem.remove(s_name);
+        if(s_name == null) return -1;
+        // if not successful
+        if(!fileSystem.remove(s_name)) return -1;
 		return 0;
     }
 
@@ -508,7 +507,7 @@ public class UserProcess {
         openFiles.closeAll();
         coff.close();
         this.status = status;
-        UThread.currentThread().finish();
+        UThread.finish();
         Lib.assertNotReached();
         return status;
     }
