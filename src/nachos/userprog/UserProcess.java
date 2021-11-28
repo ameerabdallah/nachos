@@ -3,7 +3,6 @@ package nachos.userprog;
 import nachos.machine.*;
 
 import java.io.EOFException;
-import java.nio.ByteBuffer;
 
 import static nachos.threads.ThreadedKernel.fileSystem;
 
@@ -89,6 +88,7 @@ public class UserProcess {
     public boolean execute(String name, String[] args) {
         if (!load(name, args))
             return false;
+        Lib.debug(dbgProcess, "Testing");
 
         new UThread(this).setName(name).fork();
 
@@ -477,7 +477,7 @@ public class UserProcess {
             return -1;
         }
 
-        if(openFiles.get(fd).write(buf, 0, size) < size) {
+        if(openFiles.get(fd) == null || openFiles.get(fd).write(buf, 0, size) < size) {
             return -1;
         }
 
@@ -505,8 +505,11 @@ public class UserProcess {
 
     private int killAndFree(int status) {
         Lib.debug(dbgProcess, "Killing the process and freeing allocated resources.");
-        coff.close();
         openFiles.closeAll();
+        coff.close();
+        this.status = status;
+        UThread.currentThread().finish();
+        Lib.assertNotReached();
         return status;
     }
 
