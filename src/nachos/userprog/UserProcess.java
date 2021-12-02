@@ -3,6 +3,9 @@ package nachos.userprog;
 import nachos.machine.*;
 
 import java.io.EOFException;
+import java.nio.ByteBuffer;
+import java.util.Arrays;
+import java.util.Collections;
 
 import static nachos.threads.ThreadedKernel.fileSystem;
 
@@ -88,7 +91,6 @@ public class UserProcess {
     public boolean execute(String name, String[] args) {
         if (!load(name, args))
             return false;
-        Lib.debug(dbgProcess, "Testing");
 
         new UThread(this).setName(name).fork();
 
@@ -399,7 +401,7 @@ public class UserProcess {
      */
     private int handleOpen(int p_name, boolean createFile) {
         if(!validArguments(new int[]{p_name}))
-            return killAndFree(-1);
+            killAndFree(-1);
 
         String s_name = readVirtualMemoryString(p_name,MAX_STRING_ARG_LENGTH-1);
 
@@ -449,10 +451,16 @@ public class UserProcess {
         return handleOpen(p_name, false);
     }
 
+    private void swap(byte[] argv_p, int i, int j) {
+        byte temp = argv_p[i];
+        argv_p[i] = argv_p[j];
+        argv_p[j] = temp;
+    }
+
     private int handleRead(int fd, int p_buffer, int size) {
 
         if(!validArguments(new int[]{p_buffer, size}))
-            return killAndFree(-1);
+            killAndFree(-1);
 
         if(openFiles.get(fd) == null) {
             return -1;
@@ -469,8 +477,8 @@ public class UserProcess {
     }
 
     private int handleWrite(int fd, int p_buffer, int size) {
-        if(!validArguments(new int[]{fd, p_buffer, size}))
-            return killAndFree(-1);
+        if(!validArguments(new int[]{p_buffer, size}))
+            killAndFree(-1);
 
         byte buf[] = new byte[size];
         if(readVirtualMemory(p_buffer, buf) < size) {
@@ -485,9 +493,7 @@ public class UserProcess {
     }
 
     private int handleClose(int fd) {
-        openFiles.remove(fd);
-		return 0;
-
+		return openFiles.remove(fd);
     }
 
     private int handleUnlink(int p_name) {
@@ -502,14 +508,13 @@ public class UserProcess {
 		return 0;
     }
 
-    private int killAndFree(int status) {
+    private void killAndFree(int status) {
         Lib.debug(dbgProcess, "Killing the process and freeing allocated resources.");
         openFiles.closeAll();
         coff.close();
         this.status = status;
         UThread.finish();
         Lib.assertNotReached();
-        return status;
     }
 
     /**
@@ -548,7 +553,8 @@ public class UserProcess {
             case syscallCreate:
                 return handleCreat(a0);
             case syscallExit:
-                return killAndFree(a0);
+                killAndFree(a0);
+                break;
             case syscallOpen:
                 return handleOpen(a0);
             case syscallRead:
@@ -563,8 +569,11 @@ public class UserProcess {
             default:
                 Lib.debug(dbgProcess, "Unknown syscall " + syscall);
                 Lib.assertNotReached("Unknown system call!");
-                return killAndFree(-1);
+                killAndFree(-1);
+
         }
+
+        return -1;
     }
 
     public String getSysCallName(int syscall) {
@@ -632,7 +641,7 @@ public class UserProcess {
 
         public static final int FD_STD_INPUT = 0;
         public static final int FD_STD_OUTPUT = 1;
-        public static final int MAX_OPEN_FILES = 16;
+        public static final int MAX_OPEN_FILES = 30;
         private OpenFile openFiles[] = new OpenFile[MAX_OPEN_FILES];
 
         OpenFiles() {
@@ -671,14 +680,16 @@ public class UserProcess {
             return openFiles[fd];
         }
 
-        private void remove(int fd) {
+        private int remove(int fd) {
             if(fd > MAX_OPEN_FILES-1 || fd < 0) {
-                return;
+                return -1;
             }
             if(openFiles[fd] != null) {
                 openFiles[fd].close();
                 openFiles[fd] = null;
+                return 0;
             }
+            return -1;
 
         }
 

@@ -174,8 +174,6 @@ int testReadAndWrite() {
         }
     }
 }
-
-
 int main() {
 
     createTestFileNames();
@@ -201,7 +199,6 @@ int main() {
 
     testClose();
 
-    
     printf("\nTesting creating long names...\n");
     testCreatLongName();
     printf("\nTesting opening long names...\n");
