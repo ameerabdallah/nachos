@@ -416,7 +416,11 @@ public class UserProcess {
             }
 
             // verifies that the returned fileDescriptor is not referring to a stream
-            return openFiles.add(file);
+            int fd = openFiles.add(file);
+            if(fd == -1) {
+                file.close();
+            }
+            return fd;
         }
         else {
             return -1;
@@ -449,12 +453,6 @@ public class UserProcess {
     private int handleOpen(int p_name) {
 
         return handleOpen(p_name, false);
-    }
-
-    private void swap(byte[] argv_p, int i, int j) {
-        byte temp = argv_p[i];
-        argv_p[i] = argv_p[j];
-        argv_p[j] = temp;
     }
 
     private int handleRead(int fd, int p_buffer, int size) {
@@ -603,11 +601,7 @@ public class UserProcess {
         }
     }
 
-    /**
-     * Handle a user exception. Called by
-     * <tt>UserKernel.exceptionHandler()</tt>. The
-     * <i>cause</i> argument identifies which exception occurred; see the
-     * <tt>Processor.exceptionZZZ</tt> constants.
+    /**the nstants.
      *
      * @param cause the user exception that occurred.
      */
@@ -641,7 +635,7 @@ public class UserProcess {
 
         public static final int FD_STD_INPUT = 0;
         public static final int FD_STD_OUTPUT = 1;
-        public static final int MAX_OPEN_FILES = 30;
+        public static final int MAX_OPEN_FILES = 10;
         private OpenFile openFiles[] = new OpenFile[MAX_OPEN_FILES];
 
         OpenFiles() {
